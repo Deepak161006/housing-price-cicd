@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
+
+# Environment variables
+.env
+
+# Generated model artifacts
+models/*.pkl
+models/metrics.json
+
+# Temporary files
+*.log

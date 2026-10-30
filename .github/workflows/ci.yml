@@ -36,5 +36,8 @@ jobs:
       - name: Train housing price model
         run: python train_model.py
 
+      - name: Check model quality
+        run: python quality_gate.py
+
       - name: Run automated tests
         run: python -m unittest discover -s tests -v
